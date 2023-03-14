@@ -43,6 +43,13 @@ public class Conta {
         return this.agencia;
     }
 
+    public void setTitular(Cliente titular){
+        this.titular = titular;
+    }
+
+    public Cliente getTitular(){
+        return this.titular;
+    }
 
 }
 // são os atributos/propriedades/campos -- um tipo
