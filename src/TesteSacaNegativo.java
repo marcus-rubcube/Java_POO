@@ -1,6 +1,6 @@
 public class TesteSacaNegativo {
     public static void main(String[] args) {
-        Conta conta = new Conta();
+        Conta conta = new Conta(1337, 24226);
         conta.deposita(100);
 
         // atributos privados, alterando-os e exibindo-os apenas pelos metodos

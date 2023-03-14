@@ -1,6 +1,6 @@
 public class TesteReferencias {
     public static void main(String[] args) {
-        Conta primeiraConta = new Conta();  // primeiraConta é um referencia apenas
+        Conta primeiraConta = new Conta(1337, 24226);  // primeiraConta é um referencia apenas
 
         Conta segundaConta = primeiraConta; // criando uma outra referencia para a classe Conta
 

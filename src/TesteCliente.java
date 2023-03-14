@@ -5,7 +5,7 @@ public class TesteCliente {
         marcus.setCpf("123.456.789-09");
         marcus.setProfissao("programador");
 
-        Conta contaDoMarcus = new Conta();
+        Conta contaDoMarcus = new Conta(1337, 24226);
         contaDoMarcus.deposita(100);
     }
 }
